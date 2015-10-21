@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def hello
     render text: "&#161;Hola, Mundo!"
   end
+
+  def goodbye
+    render text: "Goodbye, world!"
+  end
 end
